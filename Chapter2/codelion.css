@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800&display=swap'); /* 구글 폰트 소환 */
+
+* {
+    font-family: 'Montserrat';
+} /* 이 문서에 위에서 소환한 폰트를 적용하는 코드 */
+  /* 맨앞 *의 뜻: 이 문서 전체에 적용함 */
+
+body, h1, h2 {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: lighter;
+    color: #282828;
+    border-bottom: 1px solid #ebebeb; /* border-선 위치 */
+    margin-bottom: 16px;
+    padding-bottom: 5px;
+}
+
+.name-text {
+    font-size: 17px;
+    color: #7c7c7c;
+    font-weight: bold; /* 폰트 두께를 지정하는 코드. light(얇게), normal(보통), bold(두껍게) 등이 있음 */
+}
+
+
+.mainbox {
+    width: 610px; /* 박스 안 글자 정렬 */
+    padding: 30px;
+    margin: 30px;
+    margin-left: auto; /* 마진레프트 오토와 마진라이트 오토를 함께 써야 박스가 가운데로 이동함 */
+    margin-right: auto;
+    border: 1px solid #ebebeb;
+    box-shadow: 0 20px 100px 0 rgba(0,0,0,0.1); /* 순서대로 x축 그림자, y축 그림자, 그림자의 블러 정도, 그림자의 퍼짐 정도임 */
+                                                  /* r=red g=green b=blue a=알파(화소가 얼마나 투명한지를 나타냄) */
+} /* 박스를 만드는 방법 예시 = border: 두께 방식 색깔; */
+
+
+footer {
+    text-align: center;
+    background-color: #1e1e1e;
+    padding: 20px;
+    color: #919191;
+    font-size: 12px;
+} /* CSS로 문서 꾸미는 태그 형식임. 꾸밀 태그를 맨앞에 쓰고 중괄호 쓰고 그안에 어떤 요소를 어떻게 꾸밀지 작성함 */
+
+/* 색깔 도구: HTML Color Codes 사이트 이용하기 */
+
+section {
+    margin-bottom: 24px;
+}
+
+.name-text {
+    font-size: 16px;
+    color: #7c7c7c;
+    font-weight: bold;
+}
+
+.about-me-text {
+    font-size: 10px;
+    line-height: 16px; /* 줄 간격 설정 */
+}
+
+.title-text {
+    font-size: 11px;
+    font-weight: bold;
+    color: #282828;
+    float: left; /* 텍스트가 왼쪽으로 붙어서 둥둥 떠다님 */
+                 /* 그냥 text-align으로 하면 같은 줄에서 정렬이 안됨 */
+}
+
+.year-text {
+    font-size: 11px;
+    font-weight: bold;
+    color: #282828;
+    float: right;
+}
+
+.float-wrap {
+    overflow: hidden; /* float를 묶어 주는 코드, 이 코드 쓰면 다음에 오는 요소들이랑 줄 겹치고 그런 거 사라짐 */
+}
+
+.desc-text {
+    font-size: 9px;
+}
+
+.desc-subtext {
+    font-size: 9px;
+    color: #282828;
+    padding-left: 16px; /* 들여쓰기 느낌 내고 싶을 때 패딩 레프드 씀 */
+}
+
+.title-box {
+    text-align: right;
+}
+
+.sns-img {
+    width: 20px;
+    height: 20px;
+}
+
+.sns-wrap {
+    text-align: right;
+}
+

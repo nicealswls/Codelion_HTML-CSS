@@ -1,0 +1,105 @@
+<!-- html 문서 뼈대는 아래와 같고 외워야 함 -->
+<!DOCTYPE html>
+<html> <!-- html 문서 내 가장 큰 가방 -->
+    <head> <!-- 두 번째 가방, 콘텐츠를 보조하는 내용 들어감 -->
+        <meta charset="UTF-8"> <!-- 이 코드를 써야 한글이 정상적으로 출력이 됨(뜻은 알 필요 없다) -->
+        <title>김민진의 이력서</title>
+        <link rel="stylesheet" href="codelion.css"> <!-- CSS 파일과 이 파일을 연결해 주는 코드, 위치 상관없음 -->
+    </head>
+    <body> <!-- 두 번째 가방, 콘텐츠 들어감 -->
+        <div class="mainbox"> <!-- div(division=분배)로 묶음 -->
+            <div class="title-box">
+                <h1>김민진</h1> <!-- 글자 크게, 큰 제목 -->
+                <p class="name-text">HTML/CSS 개발자</p> <!-- 그냥 보통 크기 글자 -->
+            </div>    
+            <section> <!-- section 태그도 div 태그랑 같은 역할을 함.
+                           div만 엄청 쓰면 보기 불편하니까 div=section=article같이 기능 똑같은 다른 태그들 있는 거임. -->
+                <h2>ABOUT ME</h2>
+                <p class="about-me-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </section>
+
+            <section>
+                <h2>EXPERIENCE</h2>
+                <div class="float-wrap">
+                    <p class="title-text">Awesome Programming Company</p>
+                    <p class="year-text">2020 - Now</p>
+                </div>
+                    <p class="desc-text">Front-End Web Developer</p>
+                    <p class="desc-subtext">HTML/CSS, JS, React, ...</p>
+                <div class="float-wrap">
+                    <p class="title-text">Ministry of Health</p>
+                    <p class="year-text">2015 - 2018</p>
+                </div>
+                    <p class="desc-text">/UI/UX Designer</p>
+                    <p class="desc-subtext">Web Design</p>
+                <div class="float-wrap">
+                    <p class="title-text">Freelance Work</p>
+                    <p class="year-text">2011 - 2015</p>
+                </div>
+                    <p class="desc-text">Graphic Designer</p>
+                    <p class="desc-subtext">Graphic Design, Editorial Design</p>    
+            </section>
+
+            <section>
+                <h2>ACTIVITIES</h2>
+                <div class="float-wrap">
+                  <p class="title-text">Front-End Web Developer Forum Volunteer</p>
+                  <p class="year-text">2019 - 2020</p>
+                </div>
+                <p class="desc-text">Application Page Development</p>
+                <p class="desc-subtext">Lorem ipsum dolor sit amet.</p>
+                <div class="float-wrap">
+                  <p class="title-text">LIKELION SEOUL</p>
+                  <p class="year-text">2017 - 2018</p>
+                </div>
+                <p class="desc-text">Teacher in Mutsa University</p>
+                <p class="desc-subtext">Lorem ipsum dolor sit amet.</p>
+                <div class="float-wrap">
+                  <p class="title-text">Open Source Committer</p>
+                  <p class="year-text">2011 - 2013</p>
+                </div>
+                <p class="desc-text">Angular JS</p>
+                <p class="desc-subtext">Lorem ipsum dolor sit amet.</p>
+            </section>
+        
+            <section>
+                <h2>EDUCATION</h2>
+                <div class="float-wrap">
+                    <p class="title-text">Mutsa University</p>
+                    <p class="year-text">2008 - 2012</p>
+                </div>
+                <p class="desc-text">Computer Science and Engineering</p>
+                <div class="float-wrap">
+                    <p class="title-text">Mutsa High school</p>
+                    <p class="year-text">2006 - 2008</p>
+                </div>
+                <p class="desc-text">Visual Communication Design</p>
+                <div class="float-wrap">
+                    <p class="title-text">Online Programming Academy</p>
+                    <p class="year-text">2006 - 2007</p>
+                </div>
+                <p class="desc-text">Python Course</p>
+            </section>
+        
+            <section>
+              <h2>AWARDS</h2>
+              <div class="float-wrap">
+                <p class="title-text">LIKELION SEOUL</p>
+                <p class="year-text">2018</p>
+              </div>
+              <p class="desc-text">Best Developer Award</p>
+            </section>
+
+            <div class="sns-wrap">
+                <a href="http://facebook.com"><img class="sns-img" src="images/facebook.png"></a>
+                <a href="http://twitter.com"><img class="sns-img" src="images/twitter.png"></a>
+                <a href="http://instagram.com"><img class="sns-img" src="images/insta.png"></a>
+            </div>
+        </div>
+
+        <footer>copyright CODE LION. All rights reserved.</footer> <!-- 사이트 맨 아래 부분(저작권, 날짜 등 표시) -->
+                                                                  <!-- footer 부분은 출력해서 보면 p랑 아무 차이 없는데, 여기서 위치와 모양 등을 이용해 차이를 주는 게 CSS이다 -->
+    </body>
+</html>
